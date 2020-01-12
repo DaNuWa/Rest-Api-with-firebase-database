@@ -1,0 +1,11 @@
+C:\Program Files (x86)\Common Files\Oracle\Java\javapath;%SystemRoot%\system32;%SystemRoot%;%SystemRoot%\System32\Wbem;%SYSTEMROOT%\System32\WindowsPowerShell\v1.0\;%SYSTEMROOT%\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_191\bin;C:\Program Files\Java\jr
+
+create table ruser(
+id serial unique,
+name varchar(20),
+email varchar(20),
+pass varchar(20),
+rank int default 0);
+
+
+insert into ruser (name,email,pass) values ("yohani","yohani7788@gmail.com","123");
